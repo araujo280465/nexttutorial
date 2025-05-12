@@ -1,0 +1,42 @@
+
+PROCESSO DE DEPLOY COMO FAZER
+
+CAPITULO 11 
+        Then type "Delba" into your search bar and check the console in dev tools. What is happening?
+
+        Dev Tools Console
+
+        Searching... D
+        Searching... De
+        Searching... Del
+        Searching... Delb
+        Searching... Delba
+
+        O QUE E O DEV TOOLS Console
+
+        /app/ui/search.tsx
+
+        DUVIDA SOBRE ESSE CODIGO
+
+        // ...
+        import { useDebouncedCallback } from 'use-debounce';
+        
+        // Inside the Search Component...
+        const handleSearch = useDebouncedCallback((term) => {
+        console.log(`Searching... ${term}`);
+        
+        const params = new URLSearchParams(searchParams);
+        if (term) {
+            params.set('query', term);
+        } else {
+            params.delete('query');
+        }
+        replace(`${pathname}?${params.toString()}`);
+        }, 300);
+
+captulo 12 
+
+        http://localhost:3000/dashboard/invoices/create esse comando e case sensitive 
+
+        console.log(typeof rawFormData.amount); porque nao mostrou nada 
+

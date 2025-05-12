@@ -2,6 +2,15 @@
 // It describes the shape of the data, and what data type each property should accept.
 // For simplicity of teaching, we're manually defining these types.
 // However, these types are generated automatically if you're using an ORM such as Prisma.
+
+export type Invoice = {
+  id: string; // Will be created on the database
+  customer_id: string;
+  amount: number; // Stored in cents
+  status: 'pending' | 'paid';
+  date: string;
+};
+
 export type User = {
   id: string;
   name: string;
