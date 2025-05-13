@@ -1,5 +1,23 @@
 
+CAPITULO 14
+Then run pnpm lint in your terminal:
+
+Terminal
+
+pnpm lint ERRO AO INSTALAR
+
+PS C:\DevWeb\frontend\nextjs-dashboard> pnpm lint
+ ERROR  Expected ',' or '}' after property value in JSON at position 128 (line 7 column 5) while parsing '{  "private": true,  "scripn 5) while parsing '{  "private": true,  "scripts": {    ' in C:\DevWeb\frontend\nextjs-dashboard\package.json
+For help, run: pnpm help run
+
+
+de onde vem esse texto
+
+![alt text](image.png)
 
 
 
+SUPABASE 
 
+4 ERRORS NÃO SEI O QUE SÃO
+RECEBI EMAIL  AMEAÇANDO RS
